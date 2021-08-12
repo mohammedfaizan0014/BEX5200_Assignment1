@@ -1,0 +1,66 @@
+---
+title: "Assignment 1: Worley"
+subtitle: "BEX5200 Climate Change and Carbon Management Strategies"
+author:
+- familyname: Faizan
+  othernames: Mohammed
+  address: Monash University
+  email: mfai0014@student.monash.edu
+  correspondingauthor: true
+  qualifications:  MBAt
+department: Our consultancy - Star Wars\newline Mohammed Faizan
+organization: Monash University
+bibliography: 
+- references.bib
+- packages.bib
+biblio-style: authoryear-comp
+linestretch: 1.5
+output:
+  bookdown::pdf_document2:
+    template: monashreport2.tex
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 8
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    number_sections: yes
+    citation_package: biblatex
+    toc: true
+keep_md: true
+always_allow_html: true
+---
+
+```{r setup, echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(fig.path = "Figures/", fig.align ="center",
+                      out.width = "50%", echo = FALSE, 
+                      message = FALSE, 
+                      warning = FALSE)
+# Loading Libraries
+library(tidyverse)
+library(readr)
+library(kableExtra)
+library(tinytex)
+library(bookdown)
+library(naniar)
+library(visdat)
+library(citation)
+library(knitr)
+library(scales)
+library(patchwork)
+library(sf)
+library(glue)
+library(unglue)
+library(sugarbag)
+library(readxl)
+library(plotly)
+library(tidytext)
+library(ggplot2)
+library(igraph)
+library(ggraph)
+```
+
+
+```{r writing_packages_bibliographies}
+knitr::write_bib(c(.packages()), "packages.bib")
+```
