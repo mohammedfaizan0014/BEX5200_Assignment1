@@ -1,0 +1,116 @@
+---
+title: "Science Based Targets Initiative"
+author: "Mohammed Faizan"
+date: "12/08/2021"
+output: html_document
+---
+[SCIENCE BASED TARGETS INITIATIVE](https://sciencebasedtargets.org/about-us)
+A collaboration between CDP, the United Nations Global Compact World Resources Institute and the World Wide Fund for Nature.
+
+[Down to business: What net-zero really means](https://sciencebasedtargets.org/blog/down-to-business-what-net-zero-really-means)
+
+WHO WE ARE
+The SBTi is a partnership between CDP, the United Nations Global Compact, World Resources Institute (WRI) and the World Wide Fund for Nature (WWF). The SBTi call to action is one of the We Mean Business Coalition commitments.
+
+Learn more:
+
+Meet the team
+Our partners
+Governance
+How we are funded
+Meet the Technical Advisory Group (TAG)
+The Science Based Targets Network (SBTN)
+Join our team
+
+WHAT WE DO
+We must urgently increase ambition in the fight against climate change.
+
+The latest climate science sends a clear warning that we must dramatically curb temperature rise to avoid the catastrophic impacts of climate change.
+
+Science-based targets show companies how much and how quickly they need to reduce their greenhouse gas (GHG) emissions to prevent the worst effects of climate change.
+
+The Science Based Targets initiative (SBTi):
+
+Defines and promotes best practice in emissions reductions and net-zero targets in line with climate science.
+Provides technical assistance and expert resources to companies who set science-based targets in line with the latest climate science.
+Brings together a team of experts to provide companies with independent assessment and validation of targets.
+The SBTi is the lead partner of the Business Ambition for 1.5°C campaign - an urgent call to action from a global coalition of UN agencies, business and industry leaders, mobilizing companies to set net-zero science-based targets in line with a 1.5°C future.
+The change has already begun and action is gaining pace. Nearly one thousand companies worldwide are leading the transition to a net-zero economy by setting emissions reduction targets grounded in climate science through the SBTi.
+
+Read more about our mission and impact:
+
+
+
+Our challenge
+The race is on to limit global warming to 1.5°C and prevent the worst effects of climate change.
+
+Through the 2015 Paris Agreement, world governments committed to limiting global temperature rise to well-below 2°C above pre-industrial levels and pursuing efforts to limit warming to 1.5°C. In 2018, the Intergovernmental Panel on Climate Change (IPCC) warned that global warming must not exceed 1.5°C above pre-industrial temperatures to avoid the catastrophic impacts of climate change. To achieve this, greenhouse gas (GHG) emissions must halve by 2030 – and drop to net zero by 2050.
+
+Business has a vital role to play in driving down greenhouse gas emissions and building the resilient, zero-emissions economy we urgently need. This action must be grounded in science.
+
+We need a race to the top, led by pioneering companies. This will empower peers, suppliers and customers to follow suit and drive governments to take bolder action.
+
+
+
+Our aims
+The SBTi mobilizes the private sector to take the lead on urgent climate action.
+
+Science-based targets show companies how much and how quickly businesses need to reduce their GHG emissions to prevent the worst impacts of climate change - leading them on a clear path towards decarbonization.
+
+By guiding companies in science-based target setting, we enable them to tackle global warming while seizing the benefits and boosting their competitiveness in the transition to a net-zero economy.
+
+Action is needed in key sectors, many of which require tailored approaches to setting targets. The SBTi provides clarity and guidance on these journeys, from the oil and gas to finance sectors.
+
+The SBTi is also working to define a science-based standard for net-zero target setting, to ensure that companies’ net-zero targets translate into action that is consistent with achieving a net-zero world by no later than 2050.
+
+We know that governments and business must act together. Business action paired with clear policies and targets result in positively reinforcing ‘ambition loops’ that will accelerate the full decarbonization of every system of the economy. Widespread and ambitious science-based target setting gives governments the clarity and confidence to take bolder action.
+
+We support the integration of science-based target setting into existing climate leadership platforms including UN Caring for Climate, WWF Climate Savers and others.
+
+Our vision is for science-based target setting to become the new normal, creating a thriving economy in harmony with the natural world that sustains us all.
+
+
+
+Our impact
+The transformation to a net-zero economy is achievable and has already begun.
+
+Over one thousand leading businesses are setting emissions reduction targets in line with the latest climate science. Our latest progress report shows that this is resulting in emissions reductions at scale - the companies we analyzed have collectively reduced their annual emissions by 25% between 2015 and 2019. The momentum today shows it is possible to fully decarbonise our economy by 2050 — or sooner — if the opportunity is fully harnessed and supported by all global economic actors.
+
+As of October 2020, companies who signed up to the SBTi had operational emissions totalling over 1.2 billion tonnes of CO2e. Their combined market capitalization was $20.5 trillion USD. Among them are pioneers from some of the highest-emitting sectors, such as cement, power generation and steel.
+
+These companies are leading the way. However, we need every company, in every sector, to join them. The future of our planet depends on this.
+
+Science-based target setting is already becoming part of the yearly reporting practice of companies and the data infrastructure for institutional investors through incorporation in the CDP questionnaire and scoring.
+
+# How can companies set a science-based target?
+The private sector must play a fundamental role in reducing GHG emissions. Embedding science-based targets in sustainability management is crucial.
+
+Setting a science-based target is a five-step process:
+
+- Commit: submit a letter establishing your intent to set a science-based target
+- Develop: work on an emissions reduction target in line with the SBTi’s criteria
+- Submit: present your target to the SBTi for official validation
+- Communicate: announce your target and inform your stakeholders
+- Disclose: report company-wide emissions and track target progress annually
+
+# What are the benefits of joining the SBTi?
+
+Reducing GHG emissions in line with climate science is good for the planet and for companies.
+
+**Science-based target setting makes business sense – it future-proofs growth, saves money, provides resilience against regulation, boosts investor confidence, spurs innovation and competitiveness – while also demonstrating concrete sustainability commitments to increasingly-conscious consumers.**
+Companies going through the target validation process benefit from detailed feedback and support from the SBTi’s technical experts. Businesses who sign the SBTi commitment letter are immediately recognized as “Committed” on our website, as well as the CDP, UN Global Compact and We Mean Business websites.
+
+#A statement from companies in the Science Based Targets initiative and its Business Ambition for 1.5°C campaign
+
+With the coronavirus (COVID-19), we are facing a global pandemic that is devastating people and their livelihoods, disrupting supply chains, profoundly deepening inequalities and undoing progress on the Sustainable Development Goals. At the same time, we continue to face a global climate emergency with irreversible impacts for people and all the natural systems that sustain us. In the face of these interconnected crises, we cannot afford to tackle one or the other. Human health depends on planetary health. We can — and must — tackle both.
+
+As countries work on economic aid and recovery packages in response to COVID-19, and as they prepare to submit enhanced national climate plans under the Paris Agreement, we are calling on Governments to reimagine a better future grounded in bold climate action. As we are setting ambitious corporate emission reduction targets through the Science Based Targets initiative and its Business Ambition for 1.5°C campaign, we remain committed to do our part to achieve a resilient, zero carbon economy. We are now urging Governments to prioritize a faster and fairer transition from a grey to a green economy by aligning policies and recovery plans with the latest climate science.
+
+We must move beyond business-as-usual and work together in solidarity to deliver the greatest impact for people, prosperity and the planet. To recover better from COVID-19, we will continue to:
+
+Demonstrate that the best decisions and actions are grounded in science. By implementing ambitious science-based targets, we aim to set the world on a 1.5°C trajectory leading to healthier and safer people, and a healthier and safer planet.
+Invest in recovery and resilience for a systemic socio-economic transformation. By divesting from fossil fuels and innovating in low-carbon, resilient solutions, we are prioritizing green jobs and sustainable growth, protecting nature and people, and delivering on the 2030 Agenda and the Paris Agreement.
+Work with Governments and scale up the movement. By advocating for enabling policies aligned with a 1.5°C trajectory and zero carbon economy, we look to policymakers to give businesses the confidence and clarity they need to take ambitious climate action.
+To ensure we recover better, we are calling on Governments and policy-makers to match our ambitions in their recovery efforts aligned with reaching net-zero emissions well before 2050. If we work together, these efforts will help reduce vulnerability to future shocks and disasters, and build community resilience. A systemic shift to a zero-carbon and resilient economy is within our reach — our only future depends on making this vision a reality. We hope you will join us.
+
+Signed by 150+ companies in the Science Based Targets initiative and its Business Ambition for 1.5°C campaign.

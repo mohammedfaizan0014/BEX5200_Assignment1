@@ -1,0 +1,55 @@
+---
+title: "Extra info"
+author: "Mohammed Faizan"
+date: "12/08/2021"
+output: html_document
+---
+[Charging the US electric vehicle market](https://www.worley.com/news-and-media/2021/charging-the-us-electric-vehicle-market)
+
+
+
+
+Discussion of the likely business motivations behind the specific commitment you are choosing to interrogate.
+• What drivers (financial, regulatory, reputational) have motivated your company to make this public commitment?
+• Please note, it is expected that you outline the business motivations that are likely to have influenced your company to make the specific commitment. This will require that you look beyond media announcements and corporate statements.
+# forces of change challenges
+climate change, the energy transition, the increasing importance of the circular economy, and digitalization of our industries.
+
+## CEO Message
+Sustainable economic growth will be essential to deal with these increasing challenges as the world recovers from
+the COVID-19 pandemic. It will put people back to work, help communities rebuild, and support achievement of the Paris Agreement. We have an important role to play in enabling such sustainable growth.
+
+**Our commitment to the United Nations Global Compact principles remains as strong as it was 11 years ago when we first signed on.**
+
+**We released our revised Climate Change Position Statement during the year. It clearly states our ambitions and is supported by strategic actions to help achieve them.**
+
+### Diversity and inclusion
+Our work with First Nations peoples continues. I am pleased to report that in Australia, we developed our first Reconciliation Action Plan and in Canada, we continue to work through the Progressive Aboriginal Relations certification program.
+### Elevating the issue of sustainability
+During FY2020, I made two key appointments to the Group Executive: Geeta Thakorlal, leading Energy Transition and Digital; and Marian McLean in her capacity as leader of Health and Safety with added responsibility for Sustainability.
+At Board level, the Health, Safety and Sustainability Committee oversees our sustainability program of work, and the newly formed global Diversity and Inclusion Council stewards the work of our people network groups. In addition, we formed the Energy Transition Working Group to ensure the energy transition is factored into our strategic plans across the business.
+
+**We have an important role to play, in partnership with our customers, to deliver a more sustainable world. And we have the brightest minds at Worley to help us rise to the challenge.**
+
+
+# Sustainability Report
+**Company acknowledges climate change** **We have chosen to step forward. **
+
+
+Prior to the pandemic, climate change dominated social discourse throughout 2019. Like the pandemic, climate change affects the global community as well as our natural environment – from the temperatures we experience and the availability of drinking water to the habitability of land and the frequency and intensity of extreme weather events.
+
+## Scientific Problem?
+Embracing technology for a low-carbon future
+*The world’s population is increasing and its need for energy is conservatively projected to increase by around 10% by 2030. The ambitions of the UN (United Nations) Sustainable Development Goals (SDGs) remain as relevant as ever, and we continue to support these.*
+But how do we produce more energy while lowering our carbon emissions? How do we scale up our renewables to the levels and reliability required? How do our heavy industries decarbonize? How do we create a sustainable industry for our future workforce? And, how do we do all of this as quickly as possible?
+The answer is technology. Without technology, we will not achieve a low-carbon future.
+
+## Solutions
+- *Digital technologies* enable us to be more efficient and without them, we will not achieve a low-carbon future.
+Digital technologies will enable us
+to make the energy we need, when we need it. They will enable us to manage energy demand better, store energy, and despatch energy as and when it is required.
+
+- 
+We work with our customers and suppliers to achieve results that grow our company, reward our shareholders and our people, and contribute to our communities.
+We do this while delivering a more sustainable world for future generations.
+*We have a system of governance and operational controls in place to instil and reinforce a culture of acting lawfully, ethically and responsibly.*

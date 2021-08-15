@@ -1,0 +1,62 @@
+---
+title: "risk and opportunities"
+author: "Mohammed Faizan"
+date: "13/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Are the risks and opportunities small or large?
+
+ Responding to climate change and the energy transition and supporting our customers towards a low-carbon future are key elements in our business strategy
+• Risksandopportunitiesareidentifiedinthemarketsand customers we serve, so that the company can both capitalize on the significant opportunity offered by the capital programs associated with the energy transition, but also to mitigate risks associated with declining industries as the world transitions
+• Strategic responses are developed within the existing business and functional structures of the company and are integral to our planning processes and performance reporting
+• WorleyusestheInternationalEnergyAgencySustainable Development Scenario for strategic planning and develops business resiliency pathways accordingly across its portfolio of businesses and geographies
+• OurR3groupsupportbusinesscontinuityreadinessand response associated with physical risks including extreme weather events or rising temperatures.
+
+## Opportunities
+
+- We are already seeing vast investment in renewable energy technology, which is transforming the power sector at an unprecedented rate. 
+- There are also opportunities to design energy infrastructure that can be adapted to future uses, such as hydrogen-ready gas pipelines.
+- The Power sector has been dramatically reshaped through the energy transition. The speed and breadth of the retreat from fossil fuel power has been considerable. The significant cost reductions of renewables – particularly solar and wind – and battery storage have enabled this. The sector is also impacted by the shift to more distributed power generation systems.
+
+- As technologies continue to mature and come down in cost, more of our energy will come from renewable sources.
+
+- We are working on projects that allow even larger offshore wind farms to integrate into our current and future energy systems,” said Dr Paul Ebert, Worley Group Vice President New Energy & Networks.
+“This includes massive projects that generate both electricity and green hydrogen. Green hydrogen can be used to store energy and then can be used to decarbonize difficult to abate industries.”
+**This sector is experiencing significant growth with an estimated 418 GW of offshore wind projects to be installed globally by 2040. This equates to the installation of around 80,000 wind turbines.**
+
+- Hydrogen has many benefits. When it burns, it only leaves water vapor behind. To deal with variability in electricity systems, excess energy from variable power sources, including renewables, can also be stored as hydrogen. The use of hydrogen can help decarbonize difficult to abate industries such as steel and cement production by providing a clean burning fuel. We are working on gray, blue and green hydrogen projects all over the world, from studies on the feasibility of crude oil to hydrogen pathways in the Middle East to a detailed study of green hydrogen to ammonia in Australia, and the engineering, procurement and construction of a green hydrogen refueling station in New Zealand.
+
+
+
+- Cost reduction in Hydrogen Production (Business Motive) 
+We are working with Queensland Nitrates (QNP) and Neoen to complete a feasibility study for a new green hydrogen to ammonia plant at QNP’s existing manufacturing plant in Queensland, Australia.
+ The aim of this study is to determine the viability of producing green hydrogen at commercial scale to feed a new ammonia plant, which in turn is fed into an existing ammonium nitrate chemical facility.
+When the hydrogen is fed into the new ammonia plant, it will produce 20,000 tonnes per year of ammonia from 3,600 tonnes of green hydrogen.The proposed plant would produce 20% of the ammonia used by QNP which is currently purchased from third parties.
+The proposed project aims to progress the commercialisation of green hydrogen production for domestic and international use.
+Ammonia production is currently the largest use of hydrogen, consuming about half of global hydrogen production.
+
+
+- Distributed Energy System
+Worley is working on digital
+business models to optimize DES
+This year, we launched a new digital business, VECKTA, with our joint venture partner XENDEE. VECKTA is a virtual marketplace, where people and companies who want a DES can design, choose the technology, locate someone
+who can build, and finance the project. It’s a revolutionary way to deal with the fragmentation in the industry.
+
+- Natural Gas
+Natural gas (methane) has a critical role to play as a ‘bridge’ to a decarbonized energy supply. This includes its role in fuel switching as the use of coal reduces, as well as being a key feedstock for production of blue hydrogen. In the energy transition scenarios contemplated by the International Energy Agency, natural gas usage is a key component and is expected to continue to grow until at least the mid-2030s.
+
+_ We support projects in the energy, chemicals and resources sectors internationally. This includes projects that enable communities to develop economically via productive use of natural resources, skills development and lifting communities out of energy poverty.
+
+
+# Risks
+
+Responding to climate change and the energy transition and supporting our customers towards a low-carbon future are key elements of our business strategy. We manage the risks climate change poses to our business using a variety of governance and business processes. Our assessment against the 11 elements of the TCFD framework for the period is presented below. We will continue to analyze the physical and transitional exposures to our business posed by climate change
+and capture associated opportunities and risks in
+our key markets of energy, chemicals and resources. We commit to disclose our further progress in FY2021.
+
+

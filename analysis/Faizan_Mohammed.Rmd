@@ -1,0 +1,354 @@
+---
+title: "Assignment 1: Worley"
+subtitle: "BEX5200 Climate Change and Carbon Management Strategies"
+author:
+- familyname: Faizan
+  othernames: Mohammed
+  address: Monash University
+  email: mfai0014@student.monash.edu
+  correspondingauthor: true
+  qualifications:  MBAt
+department: Our consultancy - Star Wars\newline Mohammed Faizan
+organization: Monash University
+bibliography: 
+- references.bib
+- packages.bib
+biblio-style: authoryear-comp
+linestretch: 1.5
+output:
+  bookdown::pdf_document2:
+    template: monashreport2.tex
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 8
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    number_sections: yes
+    citation_package: biblatex
+    toc: true
+keep_md: true
+always_allow_html: true
+---
+
+```{r setup, echo=FALSE, include=FALSE}
+knitr::opts_chunk$set(fig.path = "Figures/", fig.align ="center",
+                      out.width = "50%", echo = FALSE, 
+                      message = FALSE, 
+                      warning = FALSE)
+# Loading Libraries
+library(tidyverse)
+library(readr)
+library(kableExtra)
+library(tinytex)
+library(bookdown)
+library(naniar)
+library(visdat)
+library(citation)
+library(knitr)
+library(scales)
+library(patchwork)
+library(sf)
+library(glue)
+library(unglue)
+library(sugarbag)
+library(readxl)
+library(plotly)
+library(tidytext)
+library(ggplot2)
+library(igraph)
+library(ggraph)
+```
+
+
+```{r writing_packages_bibliographies}
+knitr::write_bib(c(.packages()), "packages.bib")
+```
+
+# IEA ROad map
+
+Road Map
+```{r}
+include_graphics(here::here("IEAco2emissionprojection.png"))
+
+```
+
+#What does your company do? Where are they located? Key inputs/supply chains?
+
+**A leading global provider of professional services headquartered in Australia, delivering project and asset services in the energy, chemicals and resources sectors around the world.** sdg report
+
+We are a worldwide team of consultants, engineers, construction workers and data scientists all with one thing in common: we love to be challenged. Every day, we come to work to solve the complexity of the energy, chemicals and resources sectors. We are agile and innovative and go the extra mile to deliver new and better solutions: we deliver projects, provide expertise in engineering, procurement and construction and offer a wide range of consulting and advisory services.
+We cover the full lifecycle. From creating, sustaining and enhancing assets right through to decommissioning and rehabilitation.
+
+Our relationships and partnerships support the delivery of sustained economic, social and environmental progress for communities across the world.
+
+##Culture of Caring
+A culture where we care about the environment and the communities in which we work. 
+
+We power possibility
+Over 48,000 of the world’s brightest minds in energy, chemicals and resources, all working to deliver a more sustainable world.
+
+We have a solid platform to serve our customers and the changing energy, chemicals and resources industries.
+
+
+## Digital
+Helping you meet the world’s changing resource and energy needs in a digital way
+We’ve created the Digital Experience Lab to develop machine learning and analytics applications for our customers.
+
+Its focus is to bridge the gaps between operations, data science and information technology.
+
+To help customers increase revenue, improve uptime, and reduce safety and environmental risks.
+
+Digital transformation is changing every business. 
+
+That’s why we launched our data science, software, and technology business. We created it to help our customers keep pace with change, use technology like artificial intelligence, predictive analytics and robotics to solve industry challenges and break down barriers to progress.
+
+To not only to adapt to change.
+
+To lead it, too.
+
+## Consulting
+Every day, our world becomes more complex 
+Our consulting business, Advisian, helps customers solve some of the world’s complex and critical energy, chemicals and resources challenges. 
+
+It's made up of over 3,000 advisors, strategists, scientists, planners, and engineers. And it’s backed by Worley’s 48,000 engineering and project delivery experts. 
+
+If you need to increase safety, decrease emissions, digitize millions of assets, or do more with less – Advisian can help. 
+
+#### Thinking Sustainability
+Securing your social license to operate
+
+The way you involve and interact with a local community is integral to the success of your project. We help our customers address all of the appropriate social and environmental considerations, helping them to secure – and retain – their social license to operate.   
+
+Changing the way we view waste
+
+In our current linear economy, two thirds of everything the world produces ends up in landfill. In a circular economy, nothing is viewed as waste. We keep using resources for as long as possible. And when we’ve finished, we repurpose goods or recycle them into something else. And this doesn’t just happen the once – we do it many times over. 
+
+## Engineering & design
+
+Our customers are under pressure to deliver, develop, digitize and decarbonize. Every day, our tens of thousands of engineers are on hand to help them.
+
+We handpick talent from across the globe to deliver the most cost-effective solution. This means there are no geographical barriers to any engineering and design effort, from greenfield megaprojects to bespoke brownfield projects. We deliver millions of work hours through this model and we’re always improving the way we work.
+
+We consider how everything fits together, from planning, detailed engineering and construction, operation and expansion, to decommissioning and reclamation. We ‘design one, build many’ wherever we can to drive down costs and improve quality. But when new problems land at our feet, we embolden our people to think and deliver differently.
+
+Our philosophy enables our engineers to think about the lifetime of a project or asset, rather than just our deliverables. This takes shape through our Safe and Sustainable Engineering for Asset Lifecycle (SEAL) framework, which ensures we think about technical integrity, safety in design and sustainability in everything we do.
+
+## Project management services
+
+Our past performance shows our ability to deliver projects for customers facing a variety of challenges. These include tight schedules and remote sites where we've needed to consider environmental and technological factors.
+
+Because of our extensive experience in managing large projects, we know contractors and their capabilities all across the world. This puts us in the best position to pull together the different strands of your project.
+
+We show our customers how to optimize the technical scope, capital cost, schedule and execution plans for project developments. This includes appropriate front-end loading to maximize the value in the investment decision, prior to project sanction, to ensure that the decision-making process is robust.
+
+## Supply chain management
+**Developing local skills and capabilities in a sustainable way helps the local community prosper, long after the project is complete.**
+
+Today's projects demand improved sources of supply
+Our global sourcing hubs are crucial cogs in the Worley machine. They allow us to source equipment from across the world, no matter how bespoke or complex your project demands.
+
+With visibility of the entire supply chain, our hubs analyze the total cost, distance and quality to find the right equipment and material. Our teams have close relationships with hundreds of suppliers, and they are as selective about who they work with as you are.
+
+**Digital technologies are reshaping the supply chain. Our online marketplace platform, Requis, speeds up the procurement process. It allows businesses to buy and sell surplus equipment. And it integrates all transactions onto one platform to eliminate waste by using and re-using equipment.**
+
+Any slippage in the supply chain during project delivery can cost operators millions of dollars.
+
+That’s why we use proven processes and systems to help our customers source, manage and deliver material and equipment safely and sustainably – to the right place, at the right time.
+
+We’ve worked on some of the largest projects in the world. For example, projects with up to 70,000 vendor documents, and equipment and work packages in the billions of dollars. This has helped us fine-tune our approach to meet your needs at any point of the supply chain.
+
+## Construction & fabrication
+
+We work alongside our customers to deliver the best solutions on their:
+
+- engineering, procurement and construction (EPC)
+- engineering, procurement and construction management (EPCM)
+- construction management
+- stand-alone construction projects.
+
+Making data-driven intelligence a part of our integrated project delivery, we use programs such as ConstructSim and SmartPlant to make the smartest decisions.
+
+We manufacture bespoke pipework, metalwork, joinery, control, and electrical panels. These include CE, module construction and assembly, and pipe fabrication from our own facilities. We support our teams on construction, maintenance, and turnaround projects, as well as stand-alone packages we supply to our customers.
+
+### WorleyCord
+
+We work hand in hand with our wholly owned Canadian subsidiary WorleyCord. WorleyCord is a fully integrated EPC contractor and a stand-alone general contractor. They are a multi-disciplined contractor with an unrivaled safety and performance record, providing module fabrication and field construction for the energy sector.
+
+### Rosenberg Worley
+Rosenberg Worley is our fabrication and construction yard in Stavanger, Norway. This is where we bring our ideas to life and turn our engineering concepts into reality. Rosenberg Worley has provided more than
+100 years of continuous service to the maritime and offshore oil and gas industries, including supplying and fabricating high-quality engineered solutions.
+
+[Sulphur reduction project](https://www.worley.com/our-work/superclaus-technology)
+
+## Construction management
+Whether it's pre-construction, constructability or safety processes, we have established ourselves as a world leader in construction services.
+
+Our experience spans from the Arctic conditions in Alaska, Canada and Russia to the unique challenges presented by the desert settings of Saudi Arabia and Australia. These extreme environments require expertise to design and build safe, cost-efficient facilities which have minimal infrastructure – a scarcity of skilled labor and long logistics chains.
+
+The key to our successful history in construction is flexibility. Not constrained by any company model, we consider each opportunity a standalone effort, which requires a unique approach to the construction of the project. We understand that every project faces a unique set of challenges and changes, and provides our customers with the confidence that we can adapt to a *changing environment*.
+
+Modularization solutions
+We have a long history of using modularization, providing modular construction solutions to solve the challenges associated with our customers’ projects. Through modularization we:
+
+reduce overall total installed cost
+deliver cost and schedule certainty
+remove work from hostile/extreme environments
+minimize disruption to existing brownfield operations.
+
+### Maintenance, modifications & operations
+
+*Many of our customers operate aging assets in mature markets. They face declining production rates and the continued pressure on commodity prices. If you combine this with the drive for low-carbon energy, running a profitable operation can become a challenge.*
+
+Our integrated approach to *Maintenance, Modifications and Operations (MMO)* reduces risk and costs and removes uncertainty from your projects and operations. We help our customers to deliver greater volumes for longer and operate in *cleaner ways than ever before*, achieving potential project cost savings.
+
+**We have 45+ years of brownfield experience,**
+
+### Operations and maintenance (important)
+The energy, chemicals and resources sectors are racing toward net zero.
+
+But to get there, we need to design and build new assets. And this needs to happen quickly.
+
+These assets include wind farms, solar parks, cogeneration, distributed energy systems, hydropower, hydrogen and renewable natural gas projects.
+
+#### The focus on sustainability is creating shifts within the energy sector
+And while there’s continued investment interest in renewables, some of these new projects are first of their kind.
+
+So how can we ensure they deliver future economic returns? And what about existing assets? How do we optimize their performance, minimize operational costs and ensure they’re competitive in a future that looks nothing like today?
+
+
+**We predict, so you can plan**
+
+We’re using predictive maintenance to provide cost efficiencies and to remove more people from harm’s way. Because if we can use digital to accurately predict failures, that means sending less people to industrial sites, less often.
+
+We help our customers to establish the right asset management systems, identify ways to save money and provide higher run time and fewer failures. This helps operators to know what technical performance, operational expenditure and availability to expect long before the asset is operational.
+
+**As projects progress to commercial operation, we’re developing strategies to reduce costs, risks and environmental impact. We’re optimizing outage programs, enhancing and extending the useful life of assets.**
+
+#### Clean Energy Projects
+In Australia, we operate around a third of the power generation fleet in the country, across a range of technologies supported by a Remote Monitoring Centre in Sydney.
+
+In the USA, we provide operations and maintenance services to combined cycle, cogeneration and renewable natural gas facilities, including one that uses anaerobic digester technology to produce 4,500+ MMBTU/day of clean, pipeline-quality gas.
+
+Worley employee on top of an offshore wind turbine performing maintenance works
+In the UK, we helped to install more than 1,250 offshore wind turbines. Through our inspection services, we also helped to maintain over 70% of offshore turbines - this kept the lights on for the equivalent of 3.15 million UK homes.
+
+
+#### with change, comes opportunity
+Operations and maintenance services are indispensable in making the energy transition a reality.And with change, comes opportunity. To help you make the most of it, we’ll help you to understand which roles you need to fill and how to upskill your people.Operations and maintenance can turn spreadsheets into real, operating, economically viable assets. Our decades of success will help you to flourish into the future.
+
+[Clean energy](https://www.worley.com/what-we-do/our-expertise/operations-and-maintenance)
+
+
+# What commitments has your company made?
+
+**This company is committed to Business Ambition for 1.5**
+Australia	Oceania	Construction and Engineering	Apr 2021	
+
+**Worley is committed to achieving net zero Scope 1 and Scope 2 greenhouse gas emissions by 2030, and to pro-actively supporting our customers to reduce emissions on their projects and assets. We will keep our stakeholders informed of our strategy and progress against established metrics, including the recommendations of the Task Force on Climate-related Financial Disclosure.** [1](https://www.worley.com/sustainability/environment/climate-change)
+We will report our performance towards this ambition on an annual basis in this report. We are focusing on reducing our energy usage and also reducing our emissions intensity through substitution with low-carbon energy options.
+
+Our CCPS is supported by a set of strategic actions to help us achieve our ambitions.
+
+- Develop a net zero road map for our Scope 1 and Scope 2 emissions 
+- Review our Scope 3 emissions and develop a plan to reduce these 
+- Help our customers to reduce their emissions using our Sustainable Solutions process
+- Assess our involvement in carbon-intensive projects using our Responsible Business Assessment Standard
+- Report our progress in line with the recommendations of the Task Force on Climate-related Financial Disclosures.
+
+Energy Usage and Emissions
+
+```{r}
+include_graphics(here::here("energyusageandemissions.png"))
+
+```
+
+
+Road Map
+```{r}
+include_graphics(here::here("roadmap.png"))
+
+```
+
+
+
+## Business Ambition for 1.5
+‘Business Ambition for 1.5°C’ is an urgent call to action from a global coalition of UN agencies, business and industry leaders, in partnership with the Race to Zero.
+
+
+[SCIENCE BASED TARGETS INITIATIVE](https://sciencebasedtargets.org/about-us)
+A collaboration between CDP, the United Nations Global Compact World Resources Institute and the World Wide Fund for Nature.
+
+Science-based targets provide a clearly-defined pathway for companies to reduce greenhouse gas (GHG) emissions, helping prevent the worst impacts of climate change and future-proof business growth.
+
+Targets are considered ‘science-based’ if they are in line with what the latest climate science deems necessary to meet the goals of the Paris Agreement – limiting global warming to well-below 2°C above pre-industrial levels and pursuing efforts to limit warming to 1.5°C.
+
+### climate Statement
+The Science Based Targets initiative receives a particularly high volume of submissions close to the UN Climate Change Conference of the Parties (COP) every year.
+
+To ensure that your results are delivered before COP26 (1-12 November 2021), please submit your targets for validation *before August 2, 2021.*
+
+Kindly note that if this deadline is not met, we will not be able to guarantee a result before COP26.
+
+###Has Worley submitted?
+
+# Introducing Sustainable Solutions
+
+**Our greatest opportunity to reduce greenhouse gas (GHG) emissions is through the work we do with our customers. This year, we piloted our Sustainable Solutions process.**
+Featuring a carbon calculator, to measure carbon savings; and our Value Creation platform, which captures ideas and reports on those savings, it empowers our people to identify opportunities to reduce the carbon impact of our customers’ projects and to measure savings.
+
+# What are our targets?
+We commit to achieving net zero Scope 1 and Scope 2 GHG emissions by 2030. The baseline for this ambition is FY2020. We will report our performance towards this ambition on an annual basis. We have disclosed our carbon emissions via the CDP (formerly the Carbon Disclosure Project) reporting process for 11 years. When WorleyParsons merged with ECR in 2019, our business approximately doubled in size and our energy consumption more than doubled due to an increased number of fabrication yards and increased company office footprint.
+
+The 10 additional fabrication yards acquired with ECR are large energy consumers leading to an increase in our GHG emissions intensity per person for FY2020. Each company used different ways to estimate emissions, which is why we have created a new and consistent method to assess emissions across our portfolio of approximately 250 sites. In FY2020, we are reporting both our FY2019 and FY2020 emissions using this new emissions estimation methodology.
+
+In addition to our commitment to net zero Scope 1 and Scope 2 emissions by 2030, we recently joined the Business Ambition for 1.5°C campaign. This is led by the SBTi in partnership with the UN Global Compact. As part of this, we commit to set science-based targets that are in line with the SBTi to reduce our Scope 3 emissions by 2050.
+
+# What are the sources of our emissions?[EmissionHistory](https://www.worley.com/sustainability/environment/climate-change)
+Our carbon emissions are mainly associated with our 12 fabrication yards and the office buildings in which we work.
+
+## Scope 1 emissions
+These are direct emissions from sources that we own or control. Our Scope 1 emissions come from burning liquefied petroleum gas (LPG), natural gas and liquid fuels in heaters and generators, particularly at our fabrication yards.
+
+## Scope 2 emissions
+These are indirect emissions that come from purchased energy - including heat and steam. Our Scope 2 emissions come from the energy used to power our fabrication yards and office buildings.
+
+## Scope 3 emissions
+These are all other indirect emissions in our value chain. We do not presently estimate our Scope 3 emissions. These include (but are not limited to) emissions from transportation of our products from our fabrication yards, business travel, data centers and waste disposal.
+
+# sustainability governance framework
+```{r}
+include_graphics(here::here("framework.png"))
+```
+
+
+# Internal Policy
+
+[Health, Safety and Environment Policy](https://www.worley.com/~/media/Files/W/WorleyParsons-V2/documents/corporate-governance/2020/MS-AS-POL-0002%20Health%20Safety%20and%20Environment%20Policy.pdf)
+Position ourselves, together with helping our customers and industry partners, to meet a low carbon
+future and strive to manage our actions to reduce our emissions and waste.
+
+
+# We drive action through
+
+• Executive remuneration framework and key performance indicators
+• Net zero road map
+• Worley Foundation
+• People network groups
+• Sustainable Solutions process
+
+# Reporting
+Our annual Sustainability Report is issued as our ‘communication of progress’ for the UN Global Compact. It aligns with:
+• the internationally-recognized Global Reporting Initiative (GRI) Standards: Core option
+• our adoption of the UN Sustainable Development Goals
+• our requirements as a signatory to the UN Global Compact.
+
+```{r}
+include_graphics(here::here("reporting.png"))
+include_graphics(here::here("ethicsprogram.png"))
+include_graphics(here::here("tax.png"))
+include_graphics(here::here("shift.png"))
+
+
+
+```

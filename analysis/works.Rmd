@@ -1,0 +1,306 @@
+---
+title: "works"
+author: "Mohammed Faizan"
+date: "13/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+```
+
+# works  (Revisit and check the projects)
+
+- In FY2020 we conducted a materiality assessment. We spoke to our key stakeholders including shareholders, customers, our people and community partners to find out which sustainability topics and UN SDGs they viewed as important to Worley.
+```{r}
+include_graphics(here::here("survey.png"))
+```
+
+## Importance of Survey
+-We interviewed ten institutional investors
+  It is important we understand the views of our shareholders on environmental, social and governance (ESG) risks and     opportunities as these influence their investment decision-making processes, engagement activities and voting.
+- We completed desktop reviews of our top 24 customers
+  We must demonstrate a good understanding of our customers’ sustainability risks and opportunities and align our        approach to theirs.
+- We surveyed 1,340 of our people for their views on sustainability in 2019
+    We need to engage on the sustainability issues impacting our business if we are to attract and retain the best         talent.
+- We regularly engage with our key long-term community partners: Pollinate Group and United Way
+    It is important we contribute to the communities in which we operate. We are pleased to partner with Pollinate         Group and United Way.
+    
+## Findings from survey
+The survey identified the following issues were of importance to one or more of our stakeholder groups and to our business. We particularly note our role in creating employment and supporting economic growth. We play a key role supporting our customers to create significant economic growth via their projects.
+
+
+# FY2020 Works
+
+## SDG 7: Affordable and clean energy.
+
+• Continuedtoworkwithour customers to navigate the energy transition
+• Madestrategicacquisitionsand joint venture (JV) entities in solar, onshoreandoffshorewindand distributed energy systems
+• ContinuedtoworkwithPollinate Group to provide clean energy to people living in poverty in India
+
+## SDG 13: Climate Action
+
+• Launched our new Climate Change Position Statement and strategic actions
+• Commenced pilot of our Sustainable Solutions process
+• Updated our *Responsible Business Assessment (RBA) Standard*
+
+```{r}
+include_graphics(here::here("fy2020actions.png"))
+```
+## Plastic from Plant
+- Did you know plastic products can be made from plants? Plant sugars are used to produce 100% plant-based furandicarboxylic acid (FDCA).We’re helping Avantium develop its first FDCA flagship plant in Delfzijl, the Netherlands, which will establish a commercial supply chain for FDCA and PEF. With front-end engineering design (FEED) currently underway, the plant is scheduled to start up in 2023. (*Worley showcasing its customers contribution*)
+
+## Renewable energy (Revisit and check the projects)
+### Hydro-electricity (hydro)
+one of our largest hydro projects in FY2020 is the update
+of the 14 GW Itaipu project on the border of Brazil and Paraguay, which is the second largest hydropower plant in the world. Itaipu provides around 11% of the energy consumed in Brazil and 88% of the energy consumed in Paraguay.
+*Hydropower can also be used to store energy – something we’ve been involved with through proposed pumped hydro systems in several countries.* - science based target initiatives.
+
+### Solar
+A versatile technology, it is the lowest cost form of electricity generation in countries with good sunlight.
+We are working on combinations of PV and CSP, including the world’s largest solar project in Dubai.
+
+Extra
+Solar energy covers a myriad of different technologies, with the most prominent being solar photovoltaic (PV). 
+Concentrating Solar Power (CSP) converts sunlight to heat before driving a turbine to produce electricity. CSP has the added advantage of being able to store heat captured during the day, allowing electricity generation to continue
+at night. Solar PV uses photons of light from the sun to create a flow of electrons within photovoltaic cells with solar panels.
+
+### Wind
+
+In FY2020, we acquired 3sun, a leading UK-based installation, inspection and maintenance specialist in the offshore wind sector.
+
+We are involved in both the design and operations and maintenance of on- and offshore wind developments. We combine our experience gained in offshore oil
+and gas with the operations and maintenance experience gained from 3sun and apply it to large, complex offshore wind projects. 
+
+*We also operate and maintain our customers’ wind farms in Europe and Australia. (Verify)*
+
+Worley is responsible for inspecting more than 70% of the United Kingdom’s offshore wind turbines.
+
+**Our newest project involves crane, lift and turbine- mounted safety equipment inspection and maintenance services for all 175 3.6 MW turbines at Siemens’ London Array offshore wind farm, situated off the south east coast of England. At 630 MW, this wind farm generates enough energy to power more than 470,000 homes and saves the production of over 900,000 tonnes of CO2 every year. That’s equivalent to removing emissions from approximately 300,000 cars annually.**
+
+### Hydrogen
+
+We are working on gray, blue and green hydrogen projects all over the world, from studies on the feasibility of crude oil to hydrogen pathways in the Middle East to a detailed study of green hydrogen to ammonia in Australia, and the engineering, procurement and construction of a green hydrogen refueling station in New Zealand.
+
+
+Turning green hydrogen into ammonia
+We are working with Queensland Nitrates (QNP) and Neoen to complete a feasibility study for a new green hydrogen to ammonia plant at QNP’s existing manufacturing plant in Queensland, Australia.
+
+
+### Distributed energy systems
+
+Worley is working on digital
+business models to optimize DES
+This year, we launched a new digital business, VECKTA, with our joint venture partner XENDEE. VECKTA is a virtual marketplace, where people and companies who want a DES can design, choose the technology, locate someone
+who can build, and finance the project. It’s a revolutionary way to deal with the fragmentation in the industry.
+
+
+Extra
+The centralized model of power generation and distribution is being challenged by the evolving ecosystem of generation options. A more agile and resilient model is required. Distributed energy systems (DES) supply more resilient energy, particularly in locations that are prone to natural disasters.
+DES rely on a group of technologies that allow small- scale electricity generation at the point of use. This may be small wind turbines or solar panels attached to on-site energy storage and run by a computer.
+```{r}
+include_graphics(here::here("hydrogenprojects.png"))
+include_graphics(here::here("hydrogen.png"))
+
+```
+
+```{r}
+include_graphics(here::here("renewableenergyprojects.png"))
+```
+### Natural gas
+
+We are using our decades of experience in the hydrocarbons and power sectors to help our customers with CCUS technology, improved energy efficiency, electrification of facilities with renewable energy, and the development of processes to minimize fugitive gas emissions.
+
+Extra
+Natural gas (methane) has a critical role to play as a ‘bridge’ to a decarbonized energy supply. This includes its role in fuel switching as the use of coal reduces, as well as being a key feedstock for production of blue hydrogen. In the energy transition scenarios contemplated by the International Energy Agency, natural gas usage is a key component and is expected to continue to grow until at least the mid-2030s.
+
+## We help our customers move from linear to circular models [Velocys]()
+ We provided support to the Alberta Industrial Heartland Association to fully utilize its oil and gas and petrochemical processing infrastructure and diversify into a broader range of cross-sectoral subsectors. The work identified and ranked opportunities that adopted circular economy principles and waste recycling. In addition, the study identified opportunities to add value to readily available renewable carbon feedstocks such as biomass.
+We have been awarded the front-end engineering and design to develop a flagship facility for Avantium, supporting its transition to a bio-based economy
+for plastics.
+We also deliver waste-to-energy solutions to support the energy transition, such as our Velocys waste-to-jet fuel project.
+
+
+## Caring for our planet- 
+We operate in an environmentally responsible manner. In all aspects of our work we consider resource, water and energy efficiency, circular economy principles and environmental impacts.
+
+*We contribute our project delivery and technical expertise to enable our customers to meet the world’s changing energy needs in a safe, responsible and sustainable manner, in line with the ambitions of both the Paris Agreement and the United Nations Sustainable Development Goals.*
+
+- Sustainable Solutions: 
+Featuring a carbon calculator, to measure carbon savings; and our Value Creation platform, which captures ideas and reports on those savings, it empowers our people to identify opportunities to reduce the carbon impact of our customers’ projects and to measure savings.
+
+
+## Energy Transition
+The transition to an electrified, low-carbon energy system is in part a response to climate change and is also enabled by technology, markets and social evolution.
+
+- We are helping our customers transition to a low-carbon future.
+###Upstream and Mid-stream Oil and Gas
+The Upstream and Midstream oil and gas sector has a notable role to play in the energy transition.Reducing carbon emissions is a significant challenge for this sector. It will be complex and requires a planned approach to make best use of low-carbon technologies as they become commercially available over the coming decades.
+We are helping our customers with a range of solutions. These include minimizing fugitive emissions, integrating renewable energy for power generation and reducing direct carbon emissions through carbon capture, utilization and storage (CCUS).
+
+###Power
+We know that our other sectors will depend heavily on technologies developed and demonstrated in the power sector to decarbonize successfully. We are working with our customers by using technologies including electrification, energy storage, energy efficiency, carbon sequestration, and green hydrogen.
+
+### Refining and Chemicals
+For the Refining and Chemicals sector, the impact of the energy transition also includes the drive towards energy efficiency and the circular economy. 
+
+We are working with our customers on new and modified oil refineries. Changes include reduced gasoline proportion as electric vehicles are adopted, new International Maritime Organization (IMO) rules from 2020, decreased demand for aviation fuels post- COVID-19, and a growing need for chemical feedstock including via the oil-to-chemicals route.
+
+We are helping to develop biofuel refineries. Created from purpose-grown or waste plant matter and biological waste, biofuels will play an increasing part in low-carbon transportation where liquid fuels are still required, such as in aviation.
+
+We expect green hydrogen to find its way into the refining and chemicals sector as a fuel source. 
+
+Circular economy principles will increase in prevalence for plastics- producing customers via *waste-to-energy (power/fuel/ feedstock) solutions.*
+
+###Mining, Minerals & Metals
+The Mining, Minerals & Metals (MMM) sector is responding by improving mine and plant efficiency, lowering energy and water consumption, and reducing emissions. We are working with our customers to introduce best practice and new technology to change the way metal is produced. *Our digital and new energy capabilities allow us to help existing and new mines lower the environmental impact of their extraction and processing operations.*
+One of the biggest changes facing this sector is the increased demand for 23 new energy minerals that are key to the transition to a low-carbon future.
+```{r}
+include_graphics(here::here("newenergyminerals.png"))
+```
+
+```{r}
+include_graphics(here::here("helpingcustomers.png"))
+```
+
+
+## Requis supply chain and commerce platform.
+
+Requis is our supply chain and commerce platform.
+It provides an efficient and sustainable way to buy, manage and sell goods. And encourages the reuse of redundant and excess materials, reducing demand and decarbonizing supply. This year, Requis has helped repurpose approximately 70,000 tonnes of materials and equipment in the energy, chemicals and resources sectors.
+
+## Worley Waste Warriors
+In December 2019, we started a group called Worley Waste Warriors. Its goal is to reduce the waste and carbon footprint produced in our offices and improve our energy and water efficiency.
+
+## Velocys
+We’re working alongside Velocys on Europe’s first waste-to-jet fuel plant to turn household waste into clean-burning fuel for aviation and road transport. We’re delivering pre-feasibility, feasibility and front-end engineering and design packages. When the plant is operating it will receive hundreds of kilotonnes of waste destined for landfills or incineration every year, and create sustainable fuel. The process will reduce net greenhouse gas emissions by 70% compared with regular fuel. Furthermore, the sulphur content will be reduced to almost zero and particulate matter by up to 90%.
+“Aviation and heavy goods transport remain the hardest sectors to decarbonize. Passenger vehicles can be electrified, but aeroplanes and trucks require much higher energy density. Low-carbon fuels are essential to achieve net zero targets in these sectors,” said Henrik Wareborn, Velocys Chief Executive.
+“The technology helps these industries unlock a decarbonized future. This is made possible through access to abundant but difficult-to-process feedstocks, such as municipal solid waste and woody biomass residues. The fuels produced meet all required regulatory standards and can be used without any modification to engines.”
+Local authorities in the United Kingdom have approved the site application, with financial close targeted for 2022. The facility is expected to be operational in 2025.
+Following completion of the UK facility, we will work with Velocys to use the same technology to design and build another facility in the United States.
+
+## People Development Program
+To build a better world, we support workforce development efforts in support of our craft professionals.
+
+```{r}
+include_graphics(here::here("peopledevelopment.png"))
+```
+
+
+## Education
+This year, we’ve helped students around the world connect and learn about the energy transition through a digital learning platform hosted by The New York Academy of Sciences/Global STEM Alliance. And we have supported online STEM learning in Canada through the Let’s Talk Science Challenge.
+In Australia, we are supporting The Graham (Polly) Farmer Foundation’s strengths based learning model which opens up pathways for Aboriginal students to education and employment.
+We are helping bridge the employability gap of engineering students and young graduate engineers in Nigerian communities with the Association of Professional Women Engineers of Nigeria (APWEN).
+
+
+## CSR
+- For four years, the Worley Foundation and Pollinate Group have helped equip women in India and Nepal with the skills to lead low-income communities out of poverty by distributing products that improve health, save time and save money. An example is the distribution of solar lights, which enable families to use clean renewable lighting instead of kerosene lamps, which can be unsafe.
+
+- Sustainability champions
+We support and encourage our people to make
+a positive social and environmental impact. Our Sustainability Champions Network is dedicated to advancing our sustainability strategic goals. With more than 500 members, it’s one of our largest people network groups and provides a forum to share sustainability initiatives we’re implementing in different locations.
+
+- Corporate financial donations8
+We contributed a total of $2,664,160 to a broad range of sustainability initiatives from addressing poverty in India to providing wheelchairs for disabled elders in Mongolia.
+
+- Matched giving following *Australian bushfires*
+The Worley Foundation matched the donations of our people to the Red Cross Australian bushfire disaster relief and recovery campaign. This resulted in more than $130,000 being donated by the Worley Foundation and personal donations of our people.
+```{r}
+include_graphics(here::here("donations.png"))
+```
+
+## Supporting Australian Antarctic climate change research
+
+The Worley Foundation supports scientific research in the Antarctic, Sub Antarctic and Southern Ocean as a Trailblazer10 Corporate Supporter of the Antarctic Science Foundation (ASF) for the first time in FY2020.
+The Trailblazer10 partnership brings together companies from different sectors to make cross- industry contributions to support science in the areas of ecosystems, climate and impact, healthy oceans and polar technology.
+
+This year 25 volunteers contributed to ASF research partners, sharing their expertise by reviewing, problem solving and supplementing the work of the researchers. One project is enabling krill research for the Australian government’s Antarctic Division. Krill plays a significant part in maintaining the health of the Southern Ocean ecosystem and its role as a buffer against climate change. This research will inform international management
+of the krill fishery to ensure sustainability and protect whales, seals, penguins and seabirds who feed on krill.
+
+
+**Worley teams shared knowledge about shipping vessels, drilling, marine biology, and digital technologies. These include applications that will support krill research on Australia’s new national Antarctic research vessel – the RV Nuyina – due to begin service in the 2021/2022 Antarctic season**
+
+## Creating solar homes to address energy poverty
+
+The COVID-19 crisis has demonstrated the critical need for safe shelter. But did you know that over one billion people around the world lack adequate housing? BillionBricks is developing powerHYDE, a sustainable home solution that empowers vulnerable populations to overcome homelessness and energy poverty.
+The Worley Foundation is working alongside BillionBricks to develop a prototype for its powerHYDE innovation. The first prototype was built in the village of Math Jalgaon in Maharashtra, India where our volunteers helped assess structural designs. In California, where more than half of all unsheltered people are located in the United States, our volunteer teams provided cost estimates for the installation of powerHYDE prototypes.
+
+## Promoting transparency in mining through collective action (ethical activity)
+
+
+Via the Worley Foundation, we are a partner of Transparency International’s (TI) Accountable Mining Program to help identify and address corruption risks in the mining sector. The program is focused on addressing corruption risks in the mining approvals process.
+We hosted a workshop in Johannesburg, South Africa
+to progress efforts to strengthen governance in the mining sector, collaboration between regional, national and multinational stakeholders, and identify and action further corruption controls in industry and government.
+
+Reducing corruption with a new digital tool
+We are helping TI turn its Responsible Mining Business Integrity Tool into an interactive, web-based version. The digital version will support access and ease of use of the tool around the globe. When ready in November 2020, the tool will support ethical decision-making in the mining, minerals and metals sectors.
+
+## Creating shared value with First Nations Peoples
+Caring for the environment together (Water Management)
+The Mikisew Advisian Environmental (MAE) team has been working alongside an oil producer in Northern Alberta to develop a 26-hectare lake as compensation for habitat that will be disturbed through the process of mine development. The lake will create fish habitat and support the local animal population.
+Providing engineering and environmental habitat design services, the naturally-derived features of the project will support 10 species of fish, create 1,579,052 habitat units9, and maintain watershed hydrological balance within the lakes and creeks system.
+
+## (Board HSSC). Important
+In recognition of the importance of sustainable development in the world today, the charter of the Health, Safety and Environment Board committee was expanded this year to include sustainability and is now formally known as the Health, Safety and Sustainability Committee of the Board (Board HSSC).
+We are committed to ensuring that Worley has appropriate processes and resources in place to guide the Group’s sustainability practices, and that we make relevant disclosures and report performance to our stakeholders.
+Worley is committed to being part of the solution through both our own commitments, and also the significant role we can play in supporting the industries we serve.
+
+## industry standards and regulatory approaches
+
+We contribute our global technical and project delivery expertise, as well as our experience of different industry standards and regulatory approaches, to relevant governments and industry groups internationally. This input is provided for consideration in the development of industry standards and government policy. *As an example, in June 2020 we provided a submission in response to the Australian Federal Government Low Emissions Technology Roadmap. In this submission, we gave recommendations on how Australia can use technology to decarbonize its energy systems and build low emissions energy intensive industries, with outcomes including implementation of large-scale renewables, integration of hydrogen, and moving to a circular economy.*
+
+## LOWERING CARBON INTENSITY OF OFFSHORE OPERATIONS
+
+We are developing an in-line liquid removal system that increases the recoverable reserves of gas fields and
+reduces production CO2 emissions. The unit removes the liquid produced by wells and condensed from the gas as
+it flows through the pipeline. The pseudo dry gas flows more efficiently allowing the distance of subsea tie-backs
+to be increased. The requirement for energy intensive compression can be eliminated, reducing CO2
+ emissions by upwards of 80%. The Oil & Gas Technology Centre, Cranfield University, UK, and industry sponsors have
+supported the project development.
+
+## CARBON CAPTURE, UTILIZATION AND STORAGE Gorgon CO2 Enhanced Dehydration Project - Chevron Australia
+The Gorgon CO2
+ injection facilities are the world’s largest
+of their kind and represent the largest greenhouse
+abatement project undertaken by industry. We expect
+that up to four million tonnes of reservoir CO2
+ will be
+injected each year into the Dupuy Formation beneath
+Barrow Island. This will reduce greenhouse gas emissions
+from the Gorgon LNG facility by approximately 40%. 100
+million tonnes of CO2
+ will be injected over the life of the
+Gorgon Project instead of being vented to atmosphere
+per standard industry practice.
+The Gorgon CO2
+ Enhanced Dehydration Project enabled
+the safe and reliable start-up of the Gorgon CO2
+ injection
+facilities. Our scope included engineering, procurement
+and supporting the construction, commissioning and
+start-up activities. The project implemented a number
+of significant modifications which ensured the injection
+facilities meet required parameters.
+
+## OFFSHORE WIND Siemens Gamesa Renewable Energy (SGRE)
+ has awarded Worley
+a contract for statutory inspections and general maintenance
+of wind-turbine-generator cranes and lifts across all turbines
+on the London Array offshore wind farm. This award follows the
+acquisition of 3sun in October 2019, which provided Worley with a
+leading position in the high growth offshore wind energy services
+sector in the UK and Europe.
+The London Array offshore wind farm consists of 175 turbines
+installed over 20 kilometres, off the Kent coast in the outer
+Thames Estuary in the United Kingdom. Generating 630MW, the
+London Array offshore wind farm produces enough energy to
+power approximately 470,000 homes, displacing approximately
+900,000 tonnes of CO2
+ a year.
+
+## Task force for Climate‐related Financial Disclosures (TCFD)
+
+
+
+
