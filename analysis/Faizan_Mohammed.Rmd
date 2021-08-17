@@ -69,7 +69,7 @@ knitr::write_bib(c(.packages()), "packages.bib")
 
 Road Map
 ```{r}
-include_graphics(here::here("IEAco2emissionprojection.png"))
+include_graphics(here::here("Figures/IEAco2emissionprojection.png"))
 
 ```
 
@@ -259,14 +259,14 @@ Our CCPS is supported by a set of strategic actions to help us achieve our ambit
 Energy Usage and Emissions
 
 ```{r}
-include_graphics(here::here("energyusageandemissions.png"))
+include_graphics(here::here("Figures/energyusageandemissions.png"))
 
 ```
 
 
 Road Map
 ```{r}
-include_graphics(here::here("roadmap.png"))
+include_graphics(here::here("Figures/roadmap.png"))
 
 ```
 
@@ -318,7 +318,7 @@ These are all other indirect emissions in our value chain. We do not presently e
 
 # sustainability governance framework
 ```{r}
-include_graphics(here::here("framework.png"))
+include_graphics(here::here("Figures/framework.png"))
 ```
 
 
@@ -344,10 +344,10 @@ Our annual Sustainability Report is issued as our ‘communication of progress�
 • our requirements as a signatory to the UN Global Compact.
 
 ```{r}
-include_graphics(here::here("reporting.png"))
-include_graphics(here::here("ethicsprogram.png"))
-include_graphics(here::here("tax.png"))
-include_graphics(here::here("shift.png"))
+include_graphics(here::here("Figures/reporting.png"))
+include_graphics(here::here("Figures/ethicsprogram.png"))
+include_graphics(here::here("Figures/tax.png"))
+include_graphics(here::here("Figures/shift.png"))
 
 
 
