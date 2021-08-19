@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.3)  17 AUG 2021 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.8.18)  19 AUG 2021 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **assignment1_report.tex
 (./assignment1_report.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (/Users/mohammedfaizan/Library/TinyTeX/texmf-
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12> (/Users/mohammedfaizan/Library/TinyTeX/texmf-
 dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/base/size11.clo
@@ -188,7 +188,7 @@ File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
 ))
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.s
 ty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.s
 ty
@@ -238,13 +238,13 @@ Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 \Hy@pagecounter=\count271
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-l
 angpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.s
@@ -257,7 +257,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count272
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -288,15 +288,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count274
 \Field@Width=\dimen151
 \Fld@charsize=\dimen152
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.s
 ty
@@ -311,7 +311,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.de
 f
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.
 sty
@@ -943,7 +943,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.s
 ty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box58
 \beforetitleunit=\skip90
 \aftertitleunit=\skip91
@@ -1021,11 +1021,11 @@ Package: eukdate 2009/03/18 v1.04 UK format date (Hart's Rules) with weekday
 \c@euk@year=\count428
 ) (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-06-01 L3 programming layer (loader) 
+Package: expl3 2021-07-12 L3 programming layer (loader) 
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend
 -pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count429
 \l__pdf_internal_box=\box60
 ))
@@ -1033,7 +1033,7 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/x
 parse.sty
-Package: xparse 2021-06-01 L3 Experimental document command parser
+Package: xparse 2021-08-04 L3 Experimental document command parser
 ))
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.s
 ty
@@ -1287,7 +1287,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             2021-07-12 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1327,7 +1327,7 @@ f-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<Figures/logo.jpg, id=4, 4015.0pt x 6022.5pt>
+<Figures/logo.jpg, id=12, 4015.0pt x 6022.5pt>
 File: Figures/logo.jpg Graphic file (type jpg)
 <use Figures/logo.jpg>
 Package pdftex.def Info: Figures/logo.jpg  used on input line 304.
@@ -1600,91 +1600,148 @@ Overfull \hbox (56.23262pt too wide) detected at line 304
 [1
 
 {/Users/mohammedfaizan/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex
-.map} <./Figures/logo.jpg>] (./assignment1_report.toc)
+.map} <./Figures/logo.jpg>] (./assignment1_report.toc
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 5.
+)
 \tf@toc=\write5
 \openout5 = `assignment1_report.toc'.
 
+[2]
+<Figures/emissionhistory.png, id=31, 1154.3125pt x 622.325pt>
+File: Figures/emissionhistory.png Graphic file (type png)
+<use Figures/emissionhistory.png>
+Package pdftex.def Info: Figures/emissionhistory.png  used on input line 318.
+(pdftex.def)             Requested size: 505.89114pt x 144.53712pt.
+<Figures/energyusageandemissions.png, id=33, 683.55376pt x 294.09875pt>
+File: Figures/energyusageandemissions.png Graphic file (type png)
+<use Figures/energyusageandemissions.png>
+Package pdftex.def Info: Figures/energyusageandemissions.png  used on input lin
+e 319.
+(pdftex.def)             Requested size: 505.9053pt x 144.54045pt.
+
+Overfull \hbox (50.64706pt too wide) in paragraph at lines 318--320
+[][]
+ []
+
+
+Overfull \hbox (50.66122pt too wide) in paragraph at lines 318--320
+[] 
+ []
+
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 320.
+LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
+(Font)              scaled to size 10.51207pt on input line 324.
 LaTeX Font Info:    Trying to load font information for TS1+mdbch on input line
- 310.
+ 324.
 
 (/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/tex/latex/mathdesign/mdbch/ts
 1mdbch.fd
 File: ts1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for TS1/mdbch.
 )
-LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 310.
-LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 316.
-[2]
+LaTeX Font Info:    Font shape `TS1/mdbch/b/it' will be
+(Font)              scaled to size 10.51207pt on input line 324.
+[3 <./Figures/emissionhistory.png> <./Figures/energyusageandemissions.png>]
 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/road
-map.png, id=23, 684.5575pt x 270.00874pt>
+map.png, id=51, 684.5575pt x 270.00874pt>
 File: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures
 /roadmap.png Graphic file (type png)
 <use /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/
 roadmap.png>
 Package pdftex.def Info: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_
-Assignment1/Figures/roadmap.png  used on input line 336.
-(pdftex.def)             Requested size: 227.62204pt x 89.77882pt.
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 340.
-[3 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/r
-oadmap.png>] [4]
-</Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/repo
-rting.png, id=36, 721.69624pt x 255.95625pt>
+Assignment1/Figures/roadmap.png  used on input line 328.
+(pdftex.def)             Requested size: 341.43306pt x 134.67442pt.
+LaTeX Font Info:    Font shape `TS1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 335.
+</Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/help
+ingcustomers.png, id=56, 560.0925pt x 543.02875pt>
 File: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures
-/reporting.png Graphic file (type png)
+/helpingcustomers.png Graphic file (type png)
 <use /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/
-reporting.png>
+helpingcustomers.png>
 Package pdftex.def Info: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_
-Assignment1/Figures/reporting.png  used on input line 367.
-(pdftex.def)             Requested size: 227.62204pt x 80.72818pt.
-</Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/shif
-t.png, id=37, 791.95876pt x 470.75874pt>
+Assignment1/Figures/helpingcustomers.png  used on input line 339.
+(pdftex.def)             Requested size: 341.43306pt x 331.03989pt.
+[4 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/r
+oadmap.png>] [5 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignme
+nt1/Figures/helpingcustomers.png>]
+<Figures/reporting.png, id=86, 721.69624pt x 255.95625pt>
+File: Figures/reporting.png Graphic file (type png)
+<use Figures/reporting.png>
+Package pdftex.def Info: Figures/reporting.png  used on input line 359.
+(pdftex.def)             Requested size: 361.34279pt x 180.67569pt.
+<Figures/shift.png, id=87, 791.95876pt x 470.75874pt>
+File: Figures/shift.png Graphic file (type png)
+<use Figures/shift.png>
+Package pdftex.def Info: Figures/shift.png  used on input line 360.
+(pdftex.def)             Requested size: 361.35689pt x 180.67162pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
+[][]
+ []
+
+[6] [7 <./Figures/reporting.png> <./Figures/shift.png>]
+<Figures/donations.png, id=105, 773.89125pt x 132.495pt>
+File: Figures/donations.png Graphic file (type png)
+<use Figures/donations.png>
+Package pdftex.def Info: Figures/donations.png  used on input line 370.
+(pdftex.def)             Requested size: 289.07487pt x 72.26999pt.
+LaTeX Font Info:    Font shape `TS1/mdbch/m/n' will be
+(Font)              scaled to size 10.51207pt on input line 375.
+[8 <./Figures/donations.png>]
+Overfull \hbox (0.91728pt too wide) in paragraph at lines 416--427
+ [][] 
+ []
+
+</Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/clim
+ate_action_journey2010-2020.png, id=124, 1087.06125pt x 569.12625pt>
 File: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures
-/shift.png Graphic file (type png)
+/climate_action_journey2010-2020.png Graphic file (type png)
 <use /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/
-shift.png>
+climate_action_journey2010-2020.png>
 Package pdftex.def Info: /Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_
-Assignment1/Figures/shift.png  used on input line 375.
-(pdftex.def)             Requested size: 227.62204pt x 135.30258pt.
-[5 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/r
-eporting.png> </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment
-1/Figures/shift.png>] [6]
-
-Package caption Warning: Unused \captionsetup[table] on input line 64.
-See the caption package documentation for explanation.
-
-[7] (./assignment1_report.aux)
+Assignment1/Figures/climate_action_journey2010-2020.png  used on input line 433
+.
+(pdftex.def)             Requested size: 341.43306pt x 178.75467pt.
+[9 </Users/mohammedfaizan/git/bex5200/assignment1/BEX5200_Assignment1/Figures/c
+limate_action_journey2010-2020.png>]
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.24173pt on input line 449.
+[10] (./assignment1_report.aux)
 Package rerunfilecheck Info: File `assignment1_report.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: DAF5187723A3123E2140729221AC58AA;871.
 Package logreq Info: Writing requests to 'assignment1_report.run.xml'.
 \openout1 = `assignment1_report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26370 strings out of 480517
- 443004 string characters out of 5898682
- 1181692 words of memory out of 5000000
- 43246 multiletter control sequences out of 15000+600000
- 511902 words of font info for 340 fonts, out of 8000000 for 9000
+ 26548 strings out of 480502
+ 447111 string characters out of 5898164
+ 1185893 words of memory out of 5000000
+ 43367 multiletter control sequences out of 15000+600000
+ 518895 words of font info for 371 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,14n,93p,1441b,1436s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnans
-i.enc}{/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
+ 60i,14n,93p,1392b,1493s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc
+}{/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/enc/dvips/ly1/texnansi
 .enc}{/Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawes
 ome/fontawesometwo.enc}</Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/
 type1/public/fontawesome/FontAwesome.pfb></Users/mohammedfaizan/Library/TinyTeX
 /texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></Users/mohammedfaizan/Libr
-ary/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></Users/mohammed
-faizan/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></Us
-ers/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pf
-b></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvs
-r8a.pfb></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/public/ma
-thdesign/mdbch/md-chr8t.pfb>
-Output written on assignment1_report.pdf (7 pages, 8231102 bytes).
+ary/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></Users/mohamme
+dfaizan/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></Us
+ers/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchr
+i8a.pfb></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/public/be
+ra/fvmr8a.pfb></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/type1/pub
+lic/bera/fvsb8a.pfb></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fonts/typ
+e1/public/bera/fvsr8a.pfb></Users/mohammedfaizan/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/mathdesign/mdbch/md-chr8t.pfb></Users/mohammedfaizan/Library/Ti
+nyTeX/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chri8t.pfb>
+Output written on assignment1_report.pdf (10 pages, 10861504 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 81941 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 96318 words of extra memory for PDF output out of 106986 (max. 10000000)
 

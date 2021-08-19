@@ -1,5 +1,5 @@
 ---
-title: "Assignment 1: Worley"
+title: "Assignment 1: BEX5200 Climate Change and Carbon Management Strategies"
 subtitle: "BEX5200 Climate Change and Carbon Management Strategies"
 author:
 - familyname: Faizan
@@ -8,7 +8,7 @@ author:
   email: mfai0014@student.monash.edu
   correspondingauthor: true
   qualifications:  MBAt
-department: Our consultancy - Star Wars\newline Mohammed Faizan
+department: Climate Works Australia\newline Mohammed Faizan
 organization: Monash University
 bibliography: 
 - references.bib
@@ -33,7 +33,7 @@ always_allow_html: true
 
 ```{r setup, echo=FALSE, include=FALSE}
 knitr::opts_chunk$set(fig.path = "Figures/", fig.align ="center",
-                      out.width = "50%", echo = FALSE, 
+                      out.width = "75%", echo = FALSE, 
                       message = FALSE, 
                       warning = FALSE)
 # Loading Libraries
@@ -58,6 +58,8 @@ library(tidytext)
 library(ggplot2)
 library(igraph)
 library(ggraph)
+library(polite)
+library(rvest)
 ```
 
 
@@ -66,83 +68,106 @@ knitr::write_bib(c(.packages()), "packages.bib")
 ```
 
 
-“Holding the increase in the global average temperature to well below 2°C above pre- industrial levels and pursuing efforts to limit the temperature increase to 1.5°C above pre- industrial levels, recognizing that this would significantly reduce the risks and impacts of climate change” (UNFCCC, 2015, pg. 3).
 
-The forces of change, climate change, the energy transition, the increasing importance of the circular economy, and digitalization of industries have compelled establishments to reform and develop sustainable operations. Energy, oil and gas industries are the sectors where this change is felt more rapidly. Worley, is a leading global provider of professional services headquartered in Australia, delivering project and asset services in the energy, chemicals and resources sectors around the world (@sustainabilityreport2020). This report explores the climate action and sustainable developments made by Worley and the significance of these commitments in the context of climate change, business motives and the risks and opportunities associated with it.
 
-Worley prides itself with a worldwide network of over 48,000 consultants, engineers, construction workers and data scientists coming together to solve the complexity of the energy, chemicals and resources sectors including turnkey projects that cover the full life-cycle from creating, sustaining and enhancing assets right through to decommissioning and rehabilitation for a sustained economic, social and environmental progress for communities across the world. Worley is committed to Business Ambition for 1.5 through SCIENCE BASED TARGETS INITIATIVE to meet a low carbon future and strive to manage our actions to reduce our emissions and waste. The company has committed to report its performance annually through the sustainability report.
+\newpage
 
-**Worley is committed to achieving net zero Scope 1 and Scope 2 greenhouse gas emissions by 2030, and to pro-actively supporting our customers to reduce emissions on their projects and assets. We will keep our stakeholders informed of our strategy and progress against established metrics, including the recommendations of the Task Force on Climate-related Financial Disclosure.** [1](https://www.worley.com/sustainability/environment/climate-change)
+# Report: Evaluation of Business Ambition for 1.5 through SCIENCE BASED TARGETS INITIATIVE commitment made by Worley, Australia
 
-Our CCPS is supported by a set of strategic actions to help us achieve our ambitions.
 
-- Develop a net zero road map for our Scope 1 and Scope 2 emissions 
-- Review our Scope 3 emissions and develop a plan to reduce these 
-- Help our customers to reduce their emissions using our Sustainable Solutions process
-- Assess our involvement in carbon-intensive projects using our Responsible Business Assessment Standard
-- Report our progress in line with the recommendations of the Task Force on Climate-related Financial Disclosures.
+The forces of change, climate change, energy transition, circular economy, and digitalization of industries have compelled establishments to reform and develop sustainable operations. Energy, oil and gas industries are the sectors where this change is felt more rapidly. "Worley, is a leading global provider of professional services headquartered in Australia, delivering project and asset services in the energy, chemicals and resources sectors around the world" (@sustainabilityreport2020). Figure \ref{fig:totalcarbonemissions} shows the Energy Usage and GHG Emissions of Worley. There was a drop prior to 2019, however energy consumption and GHG emissions have risen significantly in 2020. Worley states the acquisition of Jacobs Engineering Group Inc which doubled their business operation as the reason for this surge. This report explores the climate action and sustainable developments made by Worley and the significance of these commitments in the context of climate change, business motives and the risks and opportunities associated with it. 
+
+
+\begin{figure}[H]
+\includegraphics[width=7in, height = 2in]{Figures/emissionhistory}
+\includegraphics[width=7in, height = 2in]{Figures/energyusageandemissions.png}
+\caption{Energy Usage and GHG Emissions}
+\label{fig:totalcarbonemissions}
+\end{figure}
+
+
+Worley prides itself with a worldwide network of over 48,000 consultants, engineers, construction workers and data scientists coming together to solve the complexity of the energy, chemicals and resources sectors including turnkey projects that cover the full life-cycle from creating, sustaining and enhancing assets right through to decommissioning and rehabilitation for a sustained economic, social and environmental progress for communities across the world. **Worley is committed to @businessambition  through @aboutsbti**(@sciencebasedtargets) to reach net zero by reducing emissions and waste in its projects and operations. The company has committed to report its performance annually through its sustainability report.
+
+
 
 ```{r roadmap, fig.cap="Road Map towards Net Zero by 2030"}
 include_graphics(here::here("Figures/roadmap.png"))
-
 ```
 
-Worley is dependent heavily on its clients as it delivers turnkey projects in across all sectors of energy and chemicals. Climate commitments become significant as there is dependency involved. Worley must be part of brown field projects based on the needs of the client and the project. it is therfore only apt for Worley to commit to Business Ambition for 1.5 through SCIENCE BASED TARGETS INITIATIVE, to scientifically evolve sustainable operations through emission reduction and energy transition. Worley aids its customers who are under pressure to deliver, develop, digitize and decarbonize. The aims of the commitment are in alignment with the Paris Agreement, to achieve net zero by 2050 for its scope 3 emissions. In addition, it promotes Circular Economy, to repurpose goods or recycle them into something else.
+Worley is dependent heavily on its clients as it delivers turnkey projects across all sectors of energy and chemicals. Climate commitments become significant as there is dependency involved. Worley must be part of brown field projects based on the needs of the client and the project. It is therefore only apt for Worley to commit to  @businessambition through @aboutsbti, to scientifically evolve sustainable operations through emission reduction and energy transition. Worley aids its customers who are under pressure to deliver, develop, digitize and decarbonize. The aims of the commitment are in alignment with the Paris Agreement, to achieve net zero by 2050 for its scope 3 emissions. In addition, it promotes Circular Economy, to re-purpose goods or recycle them into something else.
 
-
-
-The CEO of Worley, Mr. , realises the significance of Worley's role in the achievement of the Paris Agreement and Sustainable Economic Growth. 
-"Our commitment to the United Nations Global Compact principles remains as strong as it was 11 years ago when we first signed on.
-We released our revised Climate Change Position Statement during the year. It clearly states our ambitions and is supported by strategic actions to help achieve them."  - CEO, Worley
-
-Climate change affects business and life in unanticipated ways from the temperatures we experience and the availability of drinking water to the habitability of land and the frequency and intensity of extreme weather events. With the growing population, a 10% increase in energy demand is projected by 2030. These impacts have led government, organisations and businesses to embed climate policies and comply with the Paris agreement. Worley's customers range from oil and gas, power, Refining and Chemicals to Mining, Minerals & Metals and hence the motive for energy transition, circular economy and other science based target initiatives present a business opportunity for Worley at the same time fulfilling its commitments. Worley has accepted change and thus is more inclined towards sustainable growth of the environment and the communities in which they operate.
-
-Provide examples here.
-
-Worley recognises climate change action, energy transition and supporting customers towards a low-carbon future as key elements of their business strategy
-
-Responding to climate change and the energy transition and supporting, customers towards a low-carbon future are key elements in our business strategy. Risk and opportunities are identified in the market for the company to capitalise on the oppourtinties in energy transition and  to mitigate riskd associated associated with declining industries as the world transitions. Worley uses the International Energy Agency Sustainable Development Scenario for strategic planning and develops business resiliency pathways accordingly across its portfolio of businesses and geographies. And their R3 group support businesses in response to physical risks such as extreme weather and rising temperature.
-
-Worley is already investing in renewable energy technology, which is transforming the power sector at an unprecedented rate and designing future-ready infrastructure that can adapt to uses like green hydrogen production. This inherently causes increased attention to deliver future economic returns and to optimise performance and operational cost of existing assets to ensure their competency ahead. The significant cost reduction by use of renewable energy(solar and wind), and distributed power generation systems have motivated the shift from fossil fuels. Dr Paul Ebert, Worley Group Vice President New Energy & Networks says, "We are working on projects that allow even larger offshore wind farms to integrate into our current and future energy systems. This includes massive projects that generate both electricity and green hydrogen. Green hydrogen can be used to store energy and then can be used to decarbonize difficult to abate industries.”
-
-
-Clean energy sector is growing significantly with an estimated 418 GW of offshore wind projects to be installed globally by 2040. This equates to the installation of around 80,000 wind turbines.*Digital technologies* enable companies to be more efficient, to manage energy demand better, store energy, and despatch energy as and when it is required.Worley is "working on gray, blue and green hydrogen projects all over the world, from studies on the feasibility of crude oil to hydrogen pathways in the Middle East to a detailed study of green hydrogen to ammonia in Australia, and the engineering, procurement and construction of a green hydrogen refueling station in New Zealand."
-
-Cost reduction in Hydrogen Production (Business Motive): The collaboration with Queensland Nitrates (QNP) and Neoen in Queesnsland to complete a feasibility study to determine commercial production of green hydrogen for its largest use domestic and internationally, ammonia production. The proposed plant would produce 20% of the ammonia used by QNP which is currently purchased from third parties. Worley is working on digital business models,  VECKTA,to optimize Distributed Energy System(DES) with XENDEE. VECKTA is a virtual marketplace for people and companies for the design, technology and sales of DES. Natural gas will play a key role until the mid 2020s in fuel switching and is a bridge to decarbinised energy supply. And, Worley aims to develop projects "enable communities to develop economically via productive use of natural resources, skills development and lifting communities out of energy poverty" in the energy, chemicals and resources sectors internationally.
-
-The key performance indicators for Worley's climate commitments include Net zero road map, Worley Foundation, People network groups, Sustainable Solutions process and the TCFD framework for recommendation of the risk, opportunities and progress. The Safe and Sustainable Engineering for Asset Lifecycle (SEAL) framework ensures integrity, safety in design and sustainability and the digital platform, Requis speeeds up procurement process and thereby eliminates waste by using and re-using equipment. As companies race towards net zero, the infrastructure(obselete) plays a vital role in production rate and commodity prices. The Maintenance, Modifications and Operations (MMO) unit of Worley helps its customers to deliver increased productivity in cleaner way, thereby achieving potential project cost. All this progress is reported in Worley's annual Sustainability Report as communication of progress for the UN Global Compact.
-
-```{r, fig.cap="Reporting the Shift"}
-include_graphics(here::here("Figures/reporting.png"))
-
-include_graphics(here::here("Figures/shift.png"))
+```{r helpingcustomers, fig.cap="Worley is committed to achieving net zero Scope 1 and Scope 2 greenhouse gas emissions by 2030, and to pro-actively supporting our customers to reduce emissions on their projects and assets. We will keep our stakeholders informed of our strategy and progress against established metrics, including the recommendations of the Task Force on Climate-related Financial Disclosure.- [Worley](https://www.worley.com/sustainability/environment/climate-change)"}
+include_graphics(here::here("Figures/helpingcustomers.png"))
 ```
 
 
-"In Australia, we operate around a third of the power generation fleet in the country, across a range of technologies supported by a Remote Monitoring Centre in Sydney.
-In the USA, we provide operations and maintenance services to combined cycle, cogeneration and renewable natural gas facilities, including one that uses anaerobic digester technology to produce 4,500+ MMBTU/day of clean, pipeline-quality gas.
-In the UK, we helped to install more than 1,250 offshore wind turbines. Through our inspection services, we also helped to maintain over 70% of offshore turbines - this kept the lights on for the equivalent of 3.15 million UK homes." - Worley
+
+Climate change affects business and life in unanticipated ways from rising temperatures, uneven rainfall pattern to extreme weather. With the growing population, a 10% increase in energy demand is projected by 2030. These impacts have led government, organisations and businesses to embed climate policies and comply with the Paris agreement. Worley's customers range from oil and gas, power, Refining and Chemicals to Mining, Minerals & Metals and hence the motive for energy transition, circular economy and other science based target initiatives present a business opportunity for Worley at the same time fulfilling its commitments. Worley has accepted change and thus is more inclined towards sustainable growth of the environment and the communities in which they operate.
+
+Worley has incorporated climate change action and commits towards energy transition and to support its customers for a low-carbon future as its key business strategy. Risk and opportunities are identified in the market for the company to capitalise on the opportunties in energy transition and to mitigate risks associated associated with transitioning industries. "Worley uses the [International Energy Agency](https://www.iea.org/) Sustainable Development Scenario @iea for strategic planning and develops business resiliency pathways accordingly across its portfolio of businesses and geographies" @sustainabilityreport2020. And their R3 group support businesses in response to physical risks such as extreme weather and rising temperature.
+
+Worley is already investing in renewable energy technology, which is transforming the power sector at an unprecedented rate and designing future-ready infrastructure that can adapt to uses like green hydrogen production(Burning hydrogen gives water vapour and it can be used to store excess energy). This inherently causes increased attention to deliver future economic returns and to optimise performance and operational cost of existing assets to ensure their competency ahead. The significant cost reduction by use of renewable energy(solar and wind), and distributed power generation systems have motivated the shift from fossil fuels.
+
+Worley is "working on gray, blue and green hydrogen projects all over the world, from studies on the feasibility of crude oil to hydrogen pathways in the Middle East to a detailed study of green hydrogen to ammonia in Australia, and the engineering, procurement and construction of a green hydrogen refueling station in New Zealand." @sustainabilityreport2020 
+
+Cost reduction in Hydrogen Production (Business Motive): The collaboration with Queensland Nitrates (QNP) and Neoen in Queesnsland to complete a feasibility study to determine commercial production of green hydrogen for its largest use domestic and internationally, ammonia production. Worley has setup a digital business model, VECKTA,to optimize Distributed Energy System(DES) with [XENDEE](https://xendee.com/). VECKTA is a virtual marketplace for people and companies for the design, technology and sales of DES. Natural gas will play a key role until the mid 2020s in fuel switching and is a bridge to decarbinised energy supply. And, Worley aims to develop projects to "enable communities to develop economically via productive use of natural resources, skills development and lifting communities out of energy poverty"(@sustainabilityreport2020) in the energy, chemicals and resources sectors internationally.
+
+The key performance indicators for Worley's climate commitments include "Net zero road map, Worley Foundation, People network groups, Sustainable Solutions process" @sustainabilityreport2020 and the TCFD framework for recommendation of the risk, opportunities and progress. The digital platform, Requis speeds up procurement process and thereby eliminates waste by using and re-using equipment. As companies race towards net zero, the infrastructure(obselete) plays a vital role in production rate and commodity prices. The Maintenance, Modifications and Operations (MMO) unit of Worley helps its customers to deliver increased productivity in cleaner ways, thereby achieving potential project costs. 
 
 
-What action are they taking?  • Have they made progress?
-• Are they on track?
+\begin{figure}[H]
+\includegraphics[width=5in, height = 2.5in]{Figures/reporting}
+\includegraphics[width=5in, height = 2.5in]{Figures/shift}
+\caption{Reporting the Shift}
+\label{fig:reporting}
+\end{figure}
+
+To start-off Worley conducted a survey in FY2020 to assess its sustainable growth objectives for its shareholders, customers, internal members and community partners and noted UN's "SDG 7: Affordable and clean energy and SDG 13: Climate Action" @sdg was most favored. Worley claims to support economic growth by creating employment and supporting its customers in their projects. These objectives are being implemented by continued support to customers to navigate the energy transition, strategic acquisition and joint venture in solar, on-shore and off-shore wind and distributed energy systems and other projects like providing clean energy to people living in poverty in India with aid from the Pollinate Group. 
 
 
-To start-off Worley conducted a survey in FY2020 to assess its sustainable growth objectives for its shareholders, customers, internal members and community partners and noted UN's SDG 7: Affordable and clean energy and SDG 13: Climate Action was most favored. Worley claims to support economic growth by creating employment and supporting its customers in their projects. These objectives are being implemented by continued support to customers to navigate the energy transistion, strategic acquisition and joint venture (JV) entities in solar, on-shore and off-shore wind and distributed energy systemsand other projects like providing clean energy to people living in poverty in India with aid from the Pollinate Group. 
-
-"In recognition of the importance of sustainable development in the world today, the charter of the Health, Safety and Environment Board committee was expanded this year to include sustainability and is now formally known as the Health, Safety and Sustainability Committee of the Board (Board HSSC).
-We are committed to ensuring that Worley has appropriate processes and resources in place to guide the Group’s sustainability practices, and that we make relevant disclosures and report performance to our stakeholders.
-Worley is committed to being part of the solution through both our own commitments, and also the significant role we can play in supporting the industries we serve."
-
-The Climate Change Position Statement(CCP) reports the climate commitments and the progress being made and the Sustainable Solutions process overlooks this progress, featuring a carbon calculator, to measure carbon savings; and the Value Creation platform, which captures ideas and reports on those savings, it empowers Worley to identify opportunities to reduce the carbon impact of its customers’ projects and to measure savings. The Worley Waste Warriors, a group started in December 2019 to reduce the waste and carbon footprint produced in its offices and improve energy and water efficiency. The Worley Foundation and person donation of Worley employees donated more than $130,000 to the Red Cross Australian bushfire disaster relief and recovery campaign. "The Worley Foundation supports scientific research in the Antarctic, Sub Antarctic and Southern Ocean as a Trailblazer10 Corporate Supporter of the Antarctic Science Foundation (ASF)" to support krill research for the Australian government’s Antarctic Division. (reference here). The Worley Foundation, has partnered with Transparency International’s (TI) Accountable Mining Program to help identify and address corruption risks in the mining sector, addressing corruption risks in the mining approvals process. The web-based tool by Worley helps TI and supports ethical decision-making in the mining, minerals and metals sectors.
-
-Worley is involved in several clean energy projects across the world. "Worley is responsible for inspecting more than 70% of the United Kingdom’s offshore wind turbines",including the world’s largest solar project in Dubai. "Our newest project involves crane, lift and turbine- mounted safety equipment inspection and maintenance services for all 175 3.6 MW turbines at Siemens’ London Array offshore wind farm, situated off the south east coast of England. At 630 MW, this wind farm generates enough energy to power more than 470,000 homes and saves the production of over 900,000 tonnes of CO2 every year. That’s equivalent to removing emissions from approximately 300,000 cars annually."
-
-Therefore, Worley is observed from its reports to operate in an environmentally responsible manner considering resource, water and energy efficiency, circular economy principles and environmental impacts. They are believed to contribute project delivery and technical expertise to enable its customers meet the world’s changing energy needs in a safe, responsible and sustainable manner, in line with the ambitions of both the Paris Agreement and the United Nations Sustainable Development Goals.
-
-
-How do your company’s commitments compare to similar companies’ commitments?
-• Would they be in a leadership position within their sector? Are they falling behind their competitors?
+The Climate Change Position Statement(CCP) reports the climate commitments and the progress being made and the Sustainable Solutions process overlooks this progress, "featuring a carbon calculator, to measure carbon savings; and the Value Creation platform, which captures ideas and reports on those savings, it empowers Worley to identify opportunities to reduce the carbon impact of its customers’ projects and to measure savings." @sustainabilityreport2020. The Worley Waste Warriors was started in December 2019 to reduce the waste and carbon footprint produced in its offices and improve energy and water efficiency. The Worley Foundation donated more than $130,000 to the Red Cross Australian bushfire disaster relief and recovery campaign. "[The Worley Foundation supports scientific research in the Antarctic, Sub Antarctic and Southern Ocean as a Trailblazer10 Corporate Supporter of the Antarctic Science Foundation (ASF)" to support krill research for the Australian government’s Antarctic Division."](https://www.worley.com/our-work/australian-antarctic-climate-change-research). The Worley Foundation, through its web based tool,has partnered with Transparency International’s (TI) Accountable Mining Program to help address corruption risks in the mining approvals process. 
+\begin{figure}[H]
+\includegraphics[width=4in, height = 1in]{Figures/donations}
+\caption{Donations}
+\label{fig:donations}
+\end{figure}
 
 
 
+There are [25 companies](https://sciencebasedtargets.org/companies-taking-action?sector=Construction%20and%20Engineering&ambitionToggle=1#table) who have committed to the Business Ambition for 1.5°C in the Construction and Engineering sector on the SBTi organisation. However, Worley stands out in this regard as it is projected towards reducing its own emissions and further aiding its customers towards net zero future. The projects and investments in green technology, energy transition  and reducing direct carbon emissions through carbon capture, utilization and storage (CCUS) are a standing proof of its seriousness in this regard. The [Engineering News Record](https://www.enr.com/toplists/2020-Top-200-Environmental-Firms-Preview) reports EPC companies rank based on percentage of gross revenue reported from environmental services in the preceding year. [WORLEYPARSONS LTD(former name) retained its position at 59](https://www.enr.com/toplists/2019-Top-200-Environmental-Firms-1) in 2018 and 2019. The top 10 companies for environment related revnue is listed in table \@ref(tab:enr) @enr.
+
+```{r enr, tab.cap="ENR Top 10 Environmental Firms @enr"}
+t <- bow("https://www.enr.com/toplists/2019-Top-200-Environmental-Firms-1")
+td <- scrape(t)
+ranking <- as_tibble(html_table(td)[[2]]) %>% head(10)
+knitr::kable(ranking, caption = "ENR Top 10 Environmental Firms") %>%
+   kable_styling(latex_options = "hold_position")
+```
+
+\newpage
+
+And, the ranking in Australia is displayed below, and Worley ranks second in Australia.
+
+```{r aus, tab.cap="Australian EPC Company Ranking, ENR @enr"}
+aus_ranking <- as_tibble(html_table(td)[[2]]) %>% filter(str_detect(FIRM,"Australia")) %>% select(-c(`TYPE OF WORK`))
+knitr::kable(aus_ranking, caption = "Environmental Firms in Australia") %>%
+   kable_styling(latex_options = "hold_position")
+```
+
+
+Therefore, Worley is observed from its reports to operate sustainably and contributing project delivery and technical expertise to enable its customers transition to clean energy, reduced emissions and reach net zero, in line with the ambitions of both the Paris Agreement and the United Nations Sustainable Development Goals.
+
+```{r journey, fig.cap="Climate Action Journey"}
+include_graphics(here::here("Figures/climate_action_journey2010-2020.png"))
+
+#https://www.climateleaders.org.au/images/case-study/worley/timeline.pdf
+#https://www.climateleaders.org.au/case-studies/worley-1/
+```
+
+
+\newpage
+
+# Figure References
+Figure \ref{fig:totalcarbonemissions}, Figure \@ref(fig:roadmap), Figure \@ref(fig:helpingcustomers), Figure \ref{fig:reporting}, Figure \ref{fig:donations} are sourced from @sustainabilityreport2020. 
+
+Figure \@ref(fig:journey) is sourced from @journey
